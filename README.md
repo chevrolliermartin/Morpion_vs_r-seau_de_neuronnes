@@ -1,1 +1,5 @@
 # Morpion_vs_réseau_de_neurones
+Dans le cadre de nos cours d'informatique embarquée en 2e année de BUT Génie Électrique et Informatique Industrielle, nous avons eu à réaliser un projet dont la consigne était la suivante : à partir d'un microcontrôleur (Nucleo-L476RG) et de composants mis à disposition par les professeurs, coder quelque chose mettant en œuvre des notions vues durant le semestre (l'UART, le SPI, l'I2C et les masques). Lors de la présentation du projet, le professeur a évoqué la possibilité, pour ceux qui seraient intéressés, d'intégrer un réseau de neurones.
+
+Avec mon binôme, nous avons donc choisi de créer un morpion auquel on pourrait jouer soit contre un ami, soit contre un réseau de neurones.
+Nous avons donc utilisé un écran TFT et un expandeur de ports GPIO (MCP23018) pour lire l'état de 10 boutons. Nous avons codé le jeu entièrement nous-mêmes. En revanche, pour le réseau de neurones, nous nous sommes servis en grande partie de l'intelligence artificielle pour le créer, car nous étions limités par le temps (le projet a duré deux semaines et demie). Nous nous sommes simplement occupés d'intégrer le réseau de neurones dans notre code.
